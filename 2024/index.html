@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>AB+ - Attributes and Blindness</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation" style="z-index: 100;">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" style="z-index: -1;" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="#header-wrap">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">
+                  Speakers
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#schedules">
+                  Program
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#organizers">
+                  Organizers
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu">
+          <li>
+            <a class="page-scrool" href="#header-wrap">Home</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#team">Speakers</a>
+          </li>
+          <li>
+             <a class="page-scroll" href="#schedules">Program</a>
+          </li>
+          <li>
+             <a class="page-scroll" href="#organizers">Organizers</a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Main Carousel Section Start -->
+      <div id="main-slide" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+          <li data-target="#main-slide" data-slide-to="1"></li>
+          <li data-target="#main-slide" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/slider/slide2.jpg" alt="First slide">
+            <div class="carousel-caption d-md-block">
+              <p class="fadeInUp wow" data-wow-delay=".6s"></p>
+              <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Eurocrypt 2024 Workshop</h1>
+              <a href="https://eurocrypt.iacr.org/2024/registration.php" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">Register</a>
+              <a href="#schedules" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">Learn More</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/slider/slide2.jpg" alt="Second slide">
+            <div class="carousel-caption d-md-block">
+              <h1 class="wow bounceIn heading" data-wow-delay=".7s">Ten Expert Speakers</h1>
+              <a href="#team" class="fadeInUp wow btn btn-border btn-lg" data-wow-delay=".8s">Learn More</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/slider/slide2.jpg" alt="Third slide">
+            <div class="carousel-caption d-md-block">
+              <p class="fadeInUp wow" data-wow-delay=".6s">Eurocrypt 2024 Affiliated Event</p>
+              <h1 class="wow fadeInUp heading" data-wow-delay=".6s">Book Your Seat Now!</h1>
+              <a href="https://eurocrypt.iacr.org/2024/registration.php" class="fadeInUp wow btn btn-common btn-lg" data-wow-delay=".8s">Register</a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
+          <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left"></i></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#main-slide" role="button" data-slide="next">
+          <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right"></i></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Main Carousel Section End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- Coundown Section Start -->
+    <section class="countdown-timer section-padding">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="heading-count">
+              <h2 class="wow fadeInDown" data-wow-delay="0.2s">Event Will Start In</h2>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="row time-countdown justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+              <div id="clock" class="time-count"></div>
+            </div>
+            <a href="AB+.ics" class="btn btn-common wow fadeInUp" data-wow-delay="0.3s">Add to My Calender</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Coundown Section End -->
+    
+
+    <!-- Counter Area Start-->
+    <section class="counter-section section-padding">
+      <div class="container">
+        <div class="row">
+          <!-- Counter Item -->
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon"><i class="lni-map"></i></div>
+              <p>ETH, Hauptgebäude (HG), room D1.1</p>
+              <span>Zurich, Switzerland</span>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.6s">
+              <div class="icon"><i class="lni-timer"></i></div>
+              <p>May 26, 2024</p>
+              <span>09:00 AM – 05:00 PM</span>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.9s">
+              <div class="icon"><i class="lni-users"></i></div>
+              <p>160 Available Seats</p>
+              <span></span>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="1.2s">
+              <div class="icon"><i class="lni-coffee-cup"></i></div>
+              <p>Coffe and Lunch</p>
+              <span>included in the Workshop registration fee</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Counter Area End-->
+    
+    
+    <!-- Team Section Start -->
+    <section id="team" class="section-padding text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Who's Speaking?</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/anna.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <!-- <li><a href="#"><i class="lni-envelope" aria-hidden="true"></i></a></li> -->
+                      <li><a href="http://cs.brown.edu/people/alysyans/"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://cs.brown.edu/people/alysyans/">Anna Lysyanskaya</a></h3>
+                <p>Brown University</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/foteini.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://www.baldimtsi.com"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://www.baldimtsi.com">Foteini Baldimtsi</a></h3>
+                <p>George Mason University</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/anja.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://hpi.de/lehmann/team/anja-lehmann.html"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://hpi.de/lehmann/team/anja-lehmann.html">Anja Lehmann</a></h3>
+                <p>Hasso Plattner Institute</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="0.8s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/sofia.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://www.sofiaceli.com"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://www.sofiaceli.com">Sofia Celi</a></h3>
+                <p>Brave</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="1s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/julia.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://juliakastner.github.io/"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://juliakastner.github.io/">Julia Kastner</a></h3>
+                <p>ETH Zurich</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="1.2s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/shu.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://sites.google.com/view/shuichi-katsumata"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://sites.google.com/view/shuichi-katsumata">Shuichi Katsumata</a></h3>
+                <p> PQShield Ltd</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="1.4s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/khanh.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://scholar.google.ch/citations?user=Dj4bd0EAAAAJ&hl=en"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://scholar.google.ch/citations?user=Dj4bd0EAAAAJ&hl=en">Ngoc Khanh Nguyen</a></h3>
+                <p> King's College London</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="1.6s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/stefano.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://homes.cs.washington.edu/~tessaro/"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://homes.cs.washington.edu/~tessaro/">Stefano Tessaro</a></h3>
+                <p>University of Washington</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="1.8s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/octavio.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://www.octavio.pk"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://www.octavio.pk">Octavio Pérez Kempner</a></h3>
+                <p>NTT Social Informatics Laboratories</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="2.0s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/daniel.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="https://danielslamanig.info"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://danielslamanig.info">Daniel Slamanig</a></h3>
+                <p>Universität der Bundeswehr München</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+    
+
+    <!-- Schedule Section Start -->
+    <section id="schedules" class="schedule section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Program</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
+            </div>
+          </div>
+        </div>
+          <div class="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="sunday" role="tabpanel" aria-labelledby="sunday-tab">
+                <div id="accordion">
+                    <div class="card">
+                      <div id="headingZero">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/speaker/iacr.jpg" alt="">
+                          </div>
+                          <span class="time">9:00 am - 9:15 am</span>
+                          <h4>Opening Remarks</h4>
+                          <h5 class="name">Julian Loss & Lucjan Hanzlik</h5>
+                        </div>
+                      </div>
+                      <div id="collapseZero" class="collapse" aria-labelledby="headingZero" data-parent="#accordion">
+                        <div class="card-body">
+                          <div class="location">
+                            <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="card">
+                    <div id="headingOne">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/anna.jpg" alt="">
+                        </div>
+                        <span class="time">9:15 am - 10:30 am</span>
+                        <h4>Attributes and Blindess (Tentative)</h4>
+                        <h5 class="name">Anna Lysyanskaya</h5>
+                      </div>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>TBD</p>
+                        <div class="location">
+                          <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingC1">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseC1" aria-expanded="false" aria-controls="collapseC1">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/iacr.jpg" alt="">
+                        </div>
+                        <span class="time">10:30 am - 11:00 am</span>
+                        <h4>Coffee break</h4>
+                        <h5 class="name"></h5>
+                      </div>
+                    </div>
+                    <div id="collapseC1" class="collapse" aria-labelledby="headingC1" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="location">
+                          <span>Location:</span> Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingTwo">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/foteini.jpg" alt="">
+                        </div>
+                        <span class="time">11am - 11:30pm</span>
+                        <h4>Decentralized Single-use Credentials (Tentative)</h4>
+                        <h5 class="name">Foteini Baldimtsi</h5>
+                      </div>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>TBA</p>
+                        <div class="location">
+                            <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingThree">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/anja.jpg" alt="">
+                        </div>
+                        <span class="time">11:30am - 12:00pm</span>
+                        <h4>Privacy-Preserving Single Sign-On</h4>
+                        <h5 class="name">Anja Lehmann</h5>
+                      </div>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>Anonymous credentials are a strongly secure and privacy-preserving solution to user authentication but require users to securely manage cryptographic keys and credentials. In terms of usability, Single Sign-On (SSO) solutions, where the authentication is outsourced to a central identity provider, are significantly more convenient for end users. However, privacy is a major problem in SSO, as the identity provider can track all the user's online authentication attempts.
+                        In this talk, we will discuss how techniques from anonymous credentials and OPRFs can improve the privacy of Single Sign-On protocols such as OIDC, while maintaining its usability advantages - as users still don't have to manage any keys or credentials.</p>
+                        <div class="location">
+                          <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingFour">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/sofia.jpg" alt="">
+                        </div>
+                        <span class="time">12:00pm - 12:30pm</span>
+                        <h4>PIR: Recent Developments and Advancements</h4>
+                        <h5 class="name">Sofia Celi</h5>
+                      </div>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>In this talk, we will take a look at different advancements in Private Information Retrieval (PIR), with specific emphasis on single-server constructions. We will talk about the needs from real-world deployment perspective, new schemes and what future research in this area will look like.</p>
+                        <div class="location">
+                          <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingC2">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseC2" aria-expanded="false" aria-controls="collapseC2">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/iacr.jpg" alt="">
+                        </div>
+                        <span class="time">12:30 pm - 13:30 pm</span>
+                        <h4>Lunch break</h4>
+                        <h5 class="name"></h5>
+                      </div>
+                    </div>
+                    <div id="collapseC2" class="collapse" aria-labelledby="headingC2" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="location">
+                          <span>Location:</span> Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingJulia">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseJulia" aria-expanded="false" aria-controls="collapseJulia">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/julia.jpg" alt="">
+                        </div>
+                        <span class="time">13:30pm - 14:00pm</span>
+                        <h4>On Two-Witness Blind Signature Schemes from Groups</h4>
+                        <h5 class="name">Julia Kastner</h5>
+                      </div>
+                    </div>
+                    <div id="collapseJulia" class="collapse" aria-labelledby="headingJulia" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>In this talk, I discuss a proof technique for proving the security of a subclass of blind signatures that have an "alternative secret key" that can be used in a security reduction. Members of this class are the Abe-Okamoto Partially Blind Signature Scheme, Abe's Blind Signature, Anonymous Credentials Light, as well as the recently introduced schemes by Tessaro and Zhu. I will also discuss limitations of the proof technique, some alternatives, and open questions in the area.
+                        The talk is based on joint works with Julian Loss, Omar Renawi, and Jiayu Xu.</p>
+                        <div class="location">
+                          <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingShu">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseShu" aria-expanded="false" aria-controls="collapseShu">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/shu.jpg" alt="">
+                        </div>
+                        <span class="time">14:00pm - 14:30pm</span>
+                        <h4>Challenges of Schnorr-like Post-Quantum Blind Signatures</h4>
+                        <h5 class="name">Shuichi Katsumata</h5>
+                      </div>
+                    </div>
+                    <div id="collapseShu" class="collapse" aria-labelledby="headingShu" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>The 3-round blind signature based on Schnorr signatures is one of the simplest and most efficient blind signatures. Unfortunately, the ROS attack by Benhamouda et al. (Eurocrypt'21) now practically breaks them. This has lead to new ideas to secure blind Schnorr while retaining its simplistic and efficient design. In the post-quantum setting, the landscape is less clear. While the high level construction idea of blind Schnorr has been successfully ported to the post-quantum setting, a new type of ROS attack now breaks many of them. Nevertheless, there still exist schemes where the attack does not apply. Moreover, unlike the relatively simple fixes for blind Schnorr, securing the now-(practically)-insecure post-quantum blind signatures presents challenges, requiring novel approaches.</p>
+                        <div class="location">
+                          <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingKhanh">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseKhanh" aria-expanded="false" aria-controls="collapseKhanh">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/khanh.jpg" alt="">
+                        </div>
+                        <span class="time">14:30pm - 15:00pm</span>
+                        <h4>Round-Optimal Lattice-Based Blind Signatures: Constructions and Limitations</h4>
+                        <h5 class="name">Ngoc Khanh Nguyen</h5>
+                      </div>
+                    </div>
+                    <div id="collapseKhanh" class="collapse" aria-labelledby="headingKhanh" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>Due to the significant progress in the area of (non-interactive) zero-knowledge proofs for lattice-related statements,
+                        there has been a lot of interest in building lattice-based two-round blind signatures following Fischlin's framework (Crypto 2006).
+                        In this talk, we will give an overview of the current state-of-the-art constructions and discuss their trade-offs with respect to signatures sizes, communication complexity and
+                        underlying hardness assumptions.</p>
+                        <div class="location">
+                          <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingC3">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseC3" aria-expanded="false" aria-controls="collapseC3">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/iacr.jpg" alt="">
+                        </div>
+                        <span class="time">15:00 pm - 15:30 pm</span>
+                        <h4>Coffee break</h4>
+                        <h5 class="name"></h5>
+                      </div>
+                    </div>
+                    <div id="collapseC3" class="collapse" aria-labelledby="headingC3" data-parent="#accordion">
+                      <div class="card-body">
+                        <div class="location">
+                          <span>Location:</span> Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingStefano">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseStefano" aria-expanded="false" aria-controls="collapseStefano">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/stefano.jpg" alt="">
+                        </div>
+                        <span class="time">15:30pm - 16:00pm</span>
+                        <h4>Pairing-Free Blind Signatures from CDH Assumptions</h4>
+                        <h5 class="name">Stefano Tessaro</h5>
+                      </div>
+                    </div>
+                    <div id="collapseStefano" class="collapse" aria-labelledby="headingStefano" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>We present the first concurrently-secure blind signatures making
+                        black-box use of a pairing-free group for which unforgeability, in the
+                        random oracle model, can be proved without relying on the algebraic
+                        group model (AGM), thus resolving a long-standing open question. Prior
+                        pairing-free blind signatures without AGM proofs have only been proved
+                        secure for bounded concurrency or relied on computationally expensive
+                        non-black-box use of NIZKs.
+
+                        Our most efficient constructions rely on the chosen-target CDH
+                        assumption and can be seen as blind versions of signatures by Goh and
+                        Jarecki (EUROCRYPT '03) and Chevallier-Mames (CRYPTO '05). We also
+                        give a less efficient scheme with security based on (plain) CDH. The
+                        underlying signing protocols consist of four (in order to achieve
+                        regular unforgeability) or five moves (for strong unforgeability). All
+                        schemes are proved statistically blind in the random oracle model.
+
+                        Joint work with Rutchathon Chairattana-Apirom and Chenzhi Zhu</p>
+                        <div class="location">
+                          <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingOctavio">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOctavio" aria-expanded="false" aria-controls="collapseOctavio">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/octavio.jpg" alt="">
+                        </div>
+                        <span class="time">16:00pm - 16:30pm</span>
+                        <h4>Security of signatures with randomizable keys and related applications.</h4>
+                        <h5 class="name">Octavio Pérez Kempner</h5>
+                      </div>
+                    </div>
+                    <div id="collapseOctavio" class="collapse" aria-labelledby="headingOctavio" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>Digital signature schemes with specific properties have recently seen various real-world applications with a strong emphasis on privacy-enhancing technologies. In particular, signatures with randomizable keys find applications in a wide range of domains such as anonymous credentials, anonymity networks and blockchains. However, the literature on the topic is vast and different terminology is used across contributions, making it difficult to compare related works and understand the range of applications covered by a given construction.
+                        In this talk, which is based on a recent systematization of knowledge work from FC ‘24, we will first present a unified view of signatures with randomizable keys, revisiting their security properties. From there, we will discuss related applications and existing challenges in the area.</p>
+                        <div class="location">
+                          <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div id="headingDaniel">
+                      <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseDaniel" aria-expanded="false" aria-controls="collapseDaniel">
+                        <div class="images-box">
+                          <img class="img-fluid" src="assets/img/speaker/daniel.jpg" alt="">
+                        </div>
+                        <span class="time">16:30pm - 17:00pm</span>
+                        <h4> Equivalence Class Signatures - Theory and Applications</h4>
+                        <h5 class="name">Daniel Slamanig</h5>
+                      </div>
+                    </div>
+                    <div id="collapseDaniel" class="collapse" aria-labelledby="headingDaniel" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>Equivalence Class Signatures (EQS) are signature schemes for a message space that is partitioned into equivalence classes. They are malleable in that signatures can be publicly randomized and adapted to other message representatives in the same equivalence class of a signed message. Importantly, adapted message-signature pairs are indistinguishable from random message-signature pairs. Together with the Decisional Diffie-Hellman assumption this gives an unlinkability notion and makes EQS a very attractive building block for privacy-preserving primitives such as anonymous credentials. The malleability of EQS has also further been extended to the key space, i.e., to support key randomization. Such schemes are called mercuiral signatures (MS) and further extend potential applications.
+                        
+                        In this talk we will introduce the aforementioned concepts and present the most efficient constructions. Then, we briefly capture recent results on their instantiability as well as review some (recent) applications. Finally, we will discuss some open problems related to this class of signature schemes.</p>
+                        <div class="location">
+                          <span>Location:</span> Room D1.1, Building HG, ETH Zurich
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Schedule Section End -->
+    
+    
+    
+    <!-- Organizers Section Start -->
+    <section id="organizers" class="section-padding text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Organizers</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/julian.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                      <li><a href="mailto:loss[at]cispa.de"><i class="lni-envelope" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.julianloss.com"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://www.julianloss.com">Julian Loss</a></h3>
+                <p>CISPA Helmholtz Center for Information Security</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <!-- Team Item Starts -->
+            <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
+              <div class="team-img">
+                <img class="img-fluid" src="assets/img/team/lucjan.jpg" alt="">
+                <div class="team-overlay">
+                  <div class="overlay-social-icon text-center">
+                    <ul class="social-icons">
+                        <li><a href="mailto:hanzlik[at]cispa.de"><i class="lni-envelope" aria-hidden="true"></i></a></li>
+                        <li><a href="https://cispa.de/en/people/lucjan.hanzlik"><i class="lni-link" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="info-text">
+                <h3><a href="https://cispa.de/en/people/lucjan.hanzlik">Lucjan Hanzlik</a></h3>
+                <p>CISPA Helmholtz Center for Information Security</p>
+              </div>
+            </div>
+            <!-- Team Item Ends -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Organizers Section End -->
+    
+
+
+    <!-- Map Section Start -->
+    <section id="google-map-area">
+      <div class="container-fluid">
+        <div class="row">
+        </div>
+      </div>
+    </section>
+    <!-- Map Section End -->
+
+
+
+    <div id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="site-info">
+              <p>© Designed and Developed by <a href="http://uideck.com" rel="nofollow">UIdeck</a></p>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    	<i class="lni-chevron-up"></i>
+    </a>
+
+    <div id="preloader">
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
